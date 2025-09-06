@@ -19,3 +19,12 @@ variable "file-key" {
   default = "index.html"
 }
 
+variable "domain_name" {
+  type    = string
+  default = "funstuff.my" # e.g. www.example.com
+}     
+ 
+variable "subdomain" {
+  type        = string
+  default = "mannysfood" #Subdomain prefix (e.g. 'food')"
+} 
