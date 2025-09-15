@@ -26,5 +26,5 @@ variable "domain_name" {
  
 variable "subdomain" {
   type        = string
-  default = "mannysfood" #Subdomain prefix (e.g. 'food')"
+  default = "food" #Subdomain prefix (e.g. 'food')"
 } 
